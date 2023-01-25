@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Essa é a tabela simples, vou anotar o passo a passo.
+  1- colocar a tag <table>; 2- colocar dentro dessa tag, a tag <tr>(que significa table row, linha em inglês)
+  3- destro dessa tag, colocar a tag <th>(significa cabeçalho)
+  4- colocar os dados do cabeçalho, e decidir quantas colunas a tabela vai ter. No exemplo, são 2 colunas: nome e idade.
+  5- sair da tag <thead>, e criar a tag <tbody >e colocar dentro outra tag <tr> e dentro dela colocar a tag <td>(é usada para adicioanr o conteúdo das linhas da tabela)
+  6- tag <caption> antes da tag <thead> 
+  7- dentro da tag <th>, posso usar o comando <th rowspam="">, para organizar vizualmente a tabla, fazendo ela pular linhas.
+  8- podemos também usar a tag <th colspan=""> para pular colunas e assim organizar toda a tabela
+  9- dentro da tag<tbody>, também podemos usar a tag<th> para criar outro cabeçalho no corpo
+  10- tag <colgroup>, serve para agrupar colunas, e dentro colocar a tag<col> para definir as propriedades de cada coluna, também podemos colocar dentro da tag<col style="">, para de
+    finir aspectos, como a cor dela.
+  11- também podemos colocar dentro da tag<col span="" style="">, para que ela pinte a quantidade adequada de linhas e colunas 
+  12- para ajudar os leitores de tela a lerem de forma correta a tabela, temos o recurso de escopo, paara tizer com o que a tabela está alinhada, no exemplo,
+  usaremos na tag<th colspan="" scope="colgroup">,que está dentro da tag<thead>, para dizer que o escopo do cabeçalhos, está ligado ao agrupamento de colunas.
+  13- ainda na tag<thead> vamos usar dentro da tag<th scope="col"> para dizer que o escopo do cabeçalho está ligado as colunas.
+  14- e por fim, na tag<tbody>, vamos facilitar a leitura das linhas de conteúdo da tabela, nesse exemplo, apenas nas tags<th> usaremos a propriedade scope
+    <th scope="row">
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <meta name="Author" content="Camila Gomes">
+    <meta name="description" content="Minha primeira tabela HTML">
+    <title> Minha página</title>
+</head>
+<table>
+    <caption> Tabela genérica </caption>
+    <colgroup>
+        <col>
+        <col span="2" style="background-color:deeppink">
+        <col span="2" style="background-color: blueviolet;">
+    </colgroup>
+    <thead>
+        <tr>
+           <th rowspan="2"></th>
+           <th colspan="2" scope="colgroup">Loja 1</th>
+           <th colspan="2" scope="colgroup">Loja 2</th>
+           <th rowspan="1"></th>
+        </tr>
+        <tr>  
+            <th scope="col" > produzido</th>
+            <th scope="col"> vendido</th>
+            <th scope="col"> produzido</th>
+            <th scope="col"> vendido</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+           <th scope="row">vassoura</th>
+           <td>35   </td>
+           <td>32</td>
+           <td>45</td>
+           <td>19</td>
+           
+           
+        </tr>
+
+        <tr>
+           <th scope="row">balde</th>
+           <td>27 </td>
+           <td>15</td>
+           <td>39</td>
+           <td>50</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+           <td>Total:</td>
+
+           <td>2 pessoas</td>
+        </tr>
+    </tfoot>
+</table>
+
+
+
+</html>
+

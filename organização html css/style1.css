@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+} 
+
+.box1{
+    background-color: rgba(0, 255, 255);
+    /*position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 3;*/
+}
+.box2{
+    background-color: green;
+    /*position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 4;*/
+}
+.box3{
+    background-color: rgb(255, 174, 0);
+    /*position: absolute;
+    left: 15px;
+    top: 15px;*/
+}

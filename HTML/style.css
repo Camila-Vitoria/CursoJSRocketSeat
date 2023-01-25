@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/*.container{
+   display: flex;
+   gap: .8rem;
+
+}*/
+
+#anel{
+   border: 1px solid rgba(206, 211, 207, 0.411);
+   margin: 2%;
+   padding: 5px 4px 20px 4px;
+   box-sizing: border-box;
+   position: relative;
+   right: 35%;
+   top: 55%;
+}
+
+ 
+#brinco{
+   
+  
+   border: 1px solid rgba(206, 211, 207, 0.411);
+   margin: 2%;
+   padding:5px 4px 20px 4px;
+   box-sizing: border-box;
+   position: relative;
+   right: 0%;
+   top: 55%;
+}
+#colar {
+
+   border: 1px solid rgba(206, 211, 207, 0.411) ;
+   margin: 2%;
+   padding: 5px 4px 20px 4px;
+   box-sizing: border-box;
+   position: relative;
+   left: 35%;
+   top: 55%;
+}
+
+  
+#cruz{
+   
+   border: 1px solid rgba(206, 211, 207, 0.411);
+   margin: 2%;
+   padding:5px 4px 20px 4px;
+   box-sizing: border-box;
+   position: relative;
+   right: 30%;
+   top: 55%;
+}
+
+
+
+
+
+
+ 

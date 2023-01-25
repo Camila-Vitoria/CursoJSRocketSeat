@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas escolares</title>
+</head>
+<body>
+   <script > 
+
+/*let Nota=95
+function notaEscolar (Nota){
+    let NotaA= Nota>=90 && Nota<=100
+    let NotaB= Nota>=80 && Nota<=89
+let NotaC= Nota>=70 && Nota<=79
+let NotaD= Nota>=60 && Nota<=69
+let NotaF= Nota<60 && Nota >=1
+let NotaFinal
+if(NotaA){
+  NotaFinal = 'A' 
+} else if (NotaB){
+    NotaFinal = 'B'
+}else if (NotaC){
+    NotaFinal = 'C'
+}else if (NotaD){
+    NotaFinal = 'D'
+}else if(NotaF){
+    NotaFinal = 'F'
+}else{
+    NotaFinal = 'Nota ínválida'
+}
+return NotaFinal
+}
+console.log(notaEscolar(95))
+console.log(notaEscolar(81))
+console.log(notaEscolar(74))
+console.log(notaEscolar(62))
+console.log(notaEscolar(-1))*/
+/*let grana = {
+
+  Salario: [2500, 3600],
+ Despesas: [250,345, 80, 150, 290,1000]
+}
+function soma(array){
+    let total = 0;
+    for(let value of array){
+        total += value
+    }
+    return total
+}
+function situacaoFamiliar(){  
+let CalculoSalario = soma(grana.Salario)  
+let CalculoDespesas = soma(grana.Despesas)
+let total = CalculoSalario - CalculoDespesas
+let ok= total >=0
+let balanceText= "a família está no vermelho"
+if(ok){
+balanceText = "a família está no azul"
+}
+     
+    console.log('Seu saldo é',total, 'e', balanceText) 
+}
+situacaoFamiliar()*/
+ /*const transform = 100
+  function cTf(C,F){
+let C = (F-32)* 5/9
+let F = (C* 9/5) + 32
+}
+console.log(cTf)*/
+
+/*function transformDegree(degree){
+    const celciusExists= degree.toUpperCase().includes('C')
+    const fahrenheitExists= degree.toUpperCase().includes('F')
+
+    if(!celciusExists && !fahrenheitExists){
+        throw new Error('Grau não existe')
+    }
+    //fluxo ideal
+let updateDegree = Number(degree.toUpperCase().replace("F",""));
+let formula  = (fahrenheit) =>(fahrenheit- 32)* 5/9
+let degreeSign= 'C'
+if(celciusExists){
+updateDegree = Number(degree.toUpperCase().replace("C",""));
+formula  = celcius =>celcius * 9/5 +32
+degreeSign= 'F' 
+}
+
+return formula(updateDegree) + degreeSign
+}
+try {
+  console.log(transformDegree('50C'))
+  //transformDegree('50A') 
+} catch (error) {
+    console.log(error)
+}*/
+//fazer o último exercício de javascript quando a imagem estiver nítida
+/* 
+    ∞ Buscando e contando dados em Arrays ∞
+    Baseado no Array de Livros por Categoria abaixo, faça os seguintes desafios
+        • Contar o número de categorias e o número de livros em cada categoria
+        • Contar o número de autores
+        • Mostrar livros do autor Auguto Cury
+        • Transformar a função acima em uma função que irá receber o nome do autor e devolver os livros desse autor.
+*/
+
+const booksByCategory = [
+    {
+        category: "Riqueza",
+        books: [
+            {
+                title: "Os segredos da mente milionária",
+                author: "T. Harv Eker",
+            },
+            {
+                title: "O homem mais rico da Babilônia",
+                author: "George S. Clason",
+            },
+            {
+                title: "Pai rico, pai pobre",
+                author: "Robert T. Kiyosaki e Sharon L. Lechter",
+            },
+        ],
+    },
+    {
+        category: "Inteligência Emocional",
+        books: [
+            {
+                title: "Você é Insubstituível",
+                author: "Augusto Cury",
+            },
+            {
+                title: "Ansiedade – Como enfrentar o mal do século",
+                author: "Augusto Cury",
+            },
+            {
+                title: "Os 7 hábitos das pessoas altamente eficazes",
+                author: "Stephen R. Covey",
+            },
+        ],
+    },
+];
+
+</script> 
+</body>
+</html>
